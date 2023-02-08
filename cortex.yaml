@@ -1,0 +1,7 @@
+# cortex.yaml
+- name: cortex-realtime
+  kind: RealtimeAPI
+  pod:
+    containers:
+    - name: api
+      image: 141351496096.dkr.ecr.us-east-1.amazonaws.com/coretx-poc:latest
