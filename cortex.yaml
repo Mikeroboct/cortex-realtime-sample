@@ -1,5 +1,5 @@
 # cortex.yaml
-- name: cortex-realtime
+- name: cortex-realtime-dev
   kind: RealtimeAPI
   pod:
     containers:
